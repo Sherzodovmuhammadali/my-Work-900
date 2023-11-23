@@ -1,9 +1,9 @@
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
-        --body: #151437;
-        --text-color: #fff;
+        --body-color: #151437;
+        --text-color: #FFF;
         --dots: #EBEBEB;
-        --footer-link: #fff;
+        --footer-link: #FFF;
         --tab-text: #151437;
     }
-} */
+} 

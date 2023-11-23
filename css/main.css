@@ -1,0 +1,53 @@
+@import url(./fonts.css);
+
+/* CUSTOM PROPS */
+
+:root {
+    --primary-color: #7177F1;
+    --body-color: #151437;
+    --text-color: #323232;
+    --dots: #828282;
+    --dots-active: #7177F1;
+    --tab-text: #7177F1;
+    --footer-link: #7177F1;
+    --montserrat: "Montserrat";
+    --trebuchet: "Trebuchet";
+}
+
+
+/* GLOBAL STYLES */
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: unset;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin-bottom: 0 !important;
+}
+
+body {
+    font-family: var(--montserrat);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
